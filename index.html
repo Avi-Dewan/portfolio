@@ -1,0 +1,1454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Avi's Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/me/3.jpg" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+    <div class="sidebar-info">
+      <figure class="avatar-box">
+        <img src="/assets/images/me/5.jpg" alt="Avi Dewan" width="80">
+      </figure>
+
+      <div class="info-content">
+        <h1 class="name" title=Avi Dewan>Avi Dewan</h1>
+        <!-- <p class="title">
+          Software Engineer, Chaldal
+          <br>
+          2023 - Present
+        </p> -->
+        
+      </div>
+
+      <button class="info_more-btn" data-sidebar-btn>
+        <span>Show Contacts</span>
+        <ion-icon name="chevron-down"></ion-icon>
+      </button>
+    </div>
+      <ul class="social-list">
+        
+            <li class="social-item">
+                <a href=https://www.linkedin.com/in/avi-dewan/ class="social-link" target="_blank" rel="noopener noreferrer">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+              </li>
+        
+
+        
+            <li class="social-item">
+                <a href=https://github.com/Avi-Dewan class="social-link" target="_blank" rel="noopener noreferrer">
+                  <ion-icon name="logo-github"></ion-icon>
+                </a>
+              </li>
+        
+      </ul>
+    </div>
+
+    <div class="separator"></div>
+    <div class="sidebar-info_more">
+      <ul class="contacts-list">
+
+        
+            <li class="contact-item">
+                <div class="icon-box">
+                  <ion-icon name="mail-outline"></ion-icon>
+                </div>
+                <div class="contact-info">
+                  <p class="contact-title">Email</p>
+                  <a href="mailto:avidewan07@gmail.com" class="contact-link">avidewan07@gmail.com</a>
+                </div>
+              </li>
+        
+        
+
+        
+            <li class="contact-item">
+                <div class="icon-box">
+                  <ion-icon name="location-outline"></ion-icon>
+                </div>
+                <div class="contact-info">
+                  <p class="contact-title">Location</p>
+                  <address>Dhaka, Bangladesh</address>
+                </div>
+              </li>
+        
+      </ul>
+  </aside>
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Skills</button>
+          </li>
+          
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Education</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Achievements</button>
+          </li>
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Experience</button>
+          </li> -->
+          
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Research</button>
+          </li>
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Location</button>
+          </li> -->
+        </ul>
+      </nav>
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about active" data-page="about">
+
+    <header>
+      <h2 class="h2 article-title">About me</h2>
+    </header>
+
+    <section class="about-text">
+         
+            <p>Hi, I am Avi Dewan, an undergraduate final-year Computer Science Engineering student at BUET. I will be graduating at February, 2025. I am very passionate about software development and machine learning.</p>
+         
+            <p>I have a strong foundation in programming languages like C, C++, JavaScript, and Python, coupled with a solid understanding of database systems. I am proficient in web development, with experience in both frontend and backend technologies. I have honed my problem-solving, analytical, and teamwork skills through various academic projects and competitions like game jams, deep learning competitions, and hackathons.</p>
+         
+            <p>My interests extend to machine learning, particularly in Computer Vision and Computational Neural Optimization. I have worked with various neural network architectures, including CNNs, GNNs, and Transformers. I am keen on applying my technical skills to real-world problems and contributing to innovative projects.</p>
+         
+            <p>As a person, I alwasy try to be accountable.  I strive to follow routines, uphold commitments, and live with discipline and integrity. I am keen on applying my technical skills and problem-solving abilities to real-world challenges and contributing to innovative projects.</p>
+        
+            <p>Apart from all these tech stuffs, I love travelling. As somone who grew up in Chittagong Hill Tracts, hiking and spending time in nature is my absolute favorite thing. I also love reading novels, watching anime and immerse myself into the world of game in my freetime.</p>
+        
+  </section>
+    <div class="modal-container" data-modal-container>
+
+      <div class="overlay" data-overlay></div>
+
+      <section class="testimonials-modal">
+        <button class="modal-close-btn" data-modal-close-btn>
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+      </section>
+
+    </div>
+  </article>
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="skills" data-page="skills">
+
+  <header>
+    <h2 class="h2 article-title">Skills</h2>
+  </header>
+
+  
+    <section class="timeline">
+      <div class="title-wrapper">
+        <div class="icon-box">
+          <ion-icon name="code-slash-outline"></ion-icon>
+        </div>
+        <h3 class="h3">
+          Languages
+        </h3>
+      </div>
+
+      <div >
+        
+          <div  style="float: left; margin-right: 8px; margin-bottom: 8px;">
+                <!-- <span class="tags" style="font-size: 20px; float: left;" >C</span> -->
+                <img alt=C style="float: left;" src=https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&amp;badge=c&amp;badgeColor=white />
+                <!-- 
+                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
+                
+                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
+                 -->
+                
+          </div>
+          
+        
+          <div  style="float: left; margin-right: 8px; margin-bottom: 8px;">
+                <!-- <span class="tags" style="font-size: 20px; float: left;" >C++</span> -->
+                <img alt=C++ style="float: left;" src=https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&amp;badge=c%2B%2B&amp;badgeColor=white />
+                <!-- 
+                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
+                
+                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
+                 -->
+                
+          </div>
+          
+        
+          <div  style="float: left; margin-right: 8px; margin-bottom: 8px;">
+                <!-- <span class="tags" style="font-size: 20px; float: left;" >Java</span> -->
+                <img alt=Java style="float: left;" src=https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&amp;logo=openjdk&amp;logoColor=white />
+                <!-- 
+                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
+                
+                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
+                 -->
+                
+          </div>
+
+          <div  style="float: left; margin-right: 8px; margin-bottom: 8px;">
+            <!-- <span class="tags" style="font-size: 20px; float: left;" >Java</span> -->
+            <img alt=Python style="float: left;" src=https://img.shields.io/badge/python-%233776AB.svg?style=for-the-badge&amp;logo=openjdk&amp;logoColor=white />
+            <!-- 
+              <a style="float: left;" href=https://github.com/ > 📎 </a>  
+            
+              <a style="float: left;" href=https://github.com/ > 📎 </a>  
+             -->
+            
+          </div>
+          
+        
+          <div  style="float: left; margin-right: 8px; margin-bottom: 8px;">
+                <!-- <span class="tags" style="font-size: 20px; float: left;" >Javascript</span> -->
+                <img alt=Javascript style="float: left;" src=https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&amp;logo=javascript&amp;logoColor=%23F7DF1E />
+                <!-- 
+                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
+                
+                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
+                 -->
+                
+          </div>
+          
+        
+          <div  style="float: left; margin-right: 8px; margin-bottom: 8px;">
+                <!-- <span class="tags" style="font-size: 20px; float: left;" >Assembly</span> -->
+                <img alt=Assembly style="float: left;" src=https://img.shields.io/badge/assembly%20script-%23000000.svg?style=for-the-badge&amp;logo=assemblyscript&amp;logoColor=white />
+                <!-- 
+                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
+                
+                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
+                 -->
+                
+          </div>
+          
+        
+          <div  style="float: left; margin-right: 8px; margin-bottom: 8px;">
+                <!-- <span class="tags" style="font-size: 20px; float: left;" >Bash</span> -->
+                <img alt=Bash style="float: left;" src=https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&amp;logo=gnu-bash&amp;logoColor=white />
+                <!-- 
+                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
+                
+                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
+                 -->
+                
+          </div>
+          
+        
+      </div>
+    </section>
+    <br/>
+    <br/>
+    <div>  </div>
+    <hr>
+    <br/>
+    
+    <section class="timeline">
+      <div class="title-wrapper">
+        <div class="icon-box">
+          <ion-icon name="code-slash-outline"></ion-icon>
+        </div>
+        <h3 class="h3">
+          Backend
+        </h3>
+      </div>
+
+      <div >
+        
+          <div  style="float: left; margin-right: 8px; margin-bottom: 8px;">
+                <!-- <span class="tags" style="font-size: 20px; float: left;" >NodeJS</span> -->
+                <img alt=NodeJS style="float: left;" src=https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&amp;logo=node.js&amp;logoColor=white />
+                <!-- 
+                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
+                
+                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
+                 -->
+                
+          </div>
+
+          <div  style="float: left; margin-right: 8px; margin-bottom: 8px;">
+                <!-- <span class="tags" style="font-size: 20px; float: left;" >NodeJS</span> -->
+                <img alt=ExpressJS style="float: left;" src=https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&amp;logo=express&amp;logoColor=white />
+                <!-- 
+                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
+                
+                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
+                -->
+                
+          </div>
+          
+        
+          <div  style="float: left; margin-right: 8px; margin-bottom: 8px;">
+                <!-- <span class="tags" style="font-size: 20px; float: left;" >Spring Boot</span> -->
+                <img alt=Next JS Boot style="float: left;" src=https://img.shields.io/badge/Next.js-black?style=for-the-badge&amp;logo=spring&amp;logoColor=white />
+                <!-- 
+                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
+                
+                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
+                 -->
+                
+          </div>
+          
+        
+      </div>
+    </section>
+    <br/>
+    <br/>
+    <div>  </div>
+    <hr>
+    <br/>
+    
+    <section class="timeline">
+      <div class="title-wrapper">
+        <div class="icon-box">
+          <ion-icon name="code-slash-outline"></ion-icon>
+        </div>
+        <h3 class="h3">
+          Frontend
+        </h3>
+      </div>
+
+      <div >
+        
+          <div  style="float: left; margin-right: 8px; margin-bottom: 8px;">
+                <!-- <span class="tags" style="font-size: 20px; float: left;" >ReactJs</span> -->
+                <img alt=ReactJs style="float: left;" src=https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&amp;logo=react&amp;logoColor=%2361DAFB />
+                <!-- 
+                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
+                
+                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
+                 -->
+                
+          </div>
+          
+        
+          <div  style="float: left; margin-right: 8px; margin-bottom: 8px;">
+                <!-- <span class="tags" style="font-size: 20px; float: left;" >EJS</span> -->
+                <img alt=SvelteJS style="float: left;" src=https://img.shields.io/badge/svelte-%23FF3E00.svg?style=for-the-badge&amp;logo=node.js&amp;logoColor=white />
+                <!-- 
+                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
+                
+                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
+                 -->
+                
+          </div>
+
+          <div  style="float: left; margin-right: 8px; margin-bottom: 8px;">
+                <!-- <span class="tags" style="font-size: 20px; float: left;" >Spring Boot</span> -->
+                <img alt=Next JS Boot style="float: left;" src=https://img.shields.io/badge/Next.js-black?style=for-the-badge&amp;logo=spring&amp;logoColor=white />
+                <!-- 
+                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
+                
+                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
+                -->
+                
+          </div>
+        
+
+          <div  style="float: left; margin-right: 8px; margin-bottom: 8px;">
+                <!-- <span class="tags" style="font-size: 20px; float: left;" >EJS</span> -->
+                <img alt=p5 JS style="float: left;" src=https://img.shields.io/badge/p5.js-%23ED225D.svg?style=for-the-badge&amp;logo=node.js&amp;logoColor=white />
+                <!-- 
+                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
+                
+                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
+                -->
+                
+          </div>
+          
+        
+      </div>
+    </section>
+    <br/>
+    <br/>
+    <div>  </div>
+    <hr>
+    <br/>
+    
+    <section class="timeline">
+      <div class="title-wrapper">
+        <div class="icon-box">
+          <ion-icon name="code-slash-outline"></ion-icon>
+        </div>
+        <h3 class="h3">
+          Data Systems
+        </h3>
+      </div>
+
+      <div >
+        
+          <div  style="float: left; margin-right: 8px; margin-bottom: 8px;">
+                <!-- <span class="tags" style="font-size: 20px; float: left;" >PostgreSQL</span> -->
+                <img alt=PostgreSQL style="float: left;" src=https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&amp;logo=postgresql&amp;logoColor=white />
+                <!-- 
+                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
+                
+                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
+                 -->
+                
+          </div>
+          
+        
+          <div  style="float: left; margin-right: 8px; margin-bottom: 8px;">
+                <!-- <span class="tags" style="font-size: 20px; float: left;" >Hadoop</span> -->
+                <img alt=MySQL style="float: left;" src=https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&amp;logo=apachehadoop&amp;logoColor=black />
+                <!--  -->
+                
+          </div>
+          
+        
+      </div>
+    </section>
+    <br/>
+    <br/>
+    <div>  </div>
+    <hr>
+    <br/>
+    
+    <section class="timeline">
+      <div class="title-wrapper">
+        <div class="icon-box">
+          <ion-icon name="code-slash-outline"></ion-icon>
+        </div>
+        <h3 class="h3">
+          Tools
+        </h3>
+      </div>
+
+      <div >
+        
+          <div  style="float: left; margin-right: 8px; margin-bottom: 8px;">
+                <!-- <span class="tags" style="font-size: 20px; float: left;" >Git</span> -->
+                <img alt=Git style="float: left;" src=https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&amp;logo=git&amp;logoColor=white />
+                <!--  -->
+                
+          </div>
+          
+        
+          <div  style="float: left; margin-right: 8px; margin-bottom: 8px;">
+                <!-- <span class="tags" style="font-size: 20px; float: left;" >Docker</span> -->
+                <img alt=Docker style="float: left;" src=https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&amp;logo=docker&amp;logoColor=white />
+                <!--  -->
+                
+          </div>
+          
+      </div>
+    </section>
+    <br/>
+    <br/>
+    <div>  </div>
+    <hr>
+    <br/>
+
+  <!--
+    <section class="timeline">
+      <div class="title-wrapper">
+        <div class="icon-box">
+          <ion-icon name="code-slash-outline"></ion-icon>
+        </div>
+        <h3 class="h3">
+          Testing
+        </h3>
+      </div>
+
+      <div >
+        
+          <div  style="float: left; margin-right: 8px; margin-bottom: 8px;">
+               
+                <img alt=JUnit5 style="float: left;" src=https://img.shields.io/badge/junit5-%2325A162.svg?style=for-the-badge&amp;logo=junit5&amp;logoColor=white />
+                
+                
+          </div>
+          
+        
+          <div  style="float: left; margin-right: 8px; margin-bottom: 8px;">
+                
+                <img alt=Testcontainer style="float: left;" src=https://img.shields.io/badge/TestContainer-%230db7ed.svg?style=for-the-badge&amp;logo=docker&amp;logoColor=white />
+              
+                
+          </div>
+          
+        
+          <div  style="float: left; margin-right: 8px; margin-bottom: 8px;">
+              
+                <img alt=Graphana K6 style="float: left;" src=https://img.shields.io/badge/K6-%237D64FF.svg?style=for-the-badge&amp;logo=microsoftazure&amp;logoColor=white />
+            
+                
+          </div>
+
+        
+      </div>
+    </section>
+    <br/>
+    <br/>
+    <div>  </div>
+    <hr>
+    <br/>
+  -->  
+
+  <!--
+    <section class="timeline">
+      <div class="title-wrapper">
+        <div class="icon-box">
+          <ion-icon name="code-slash-outline"></ion-icon>
+        </div>
+        <h3 class="h3">
+          DevOps
+        </h3>
+      </div>
+
+      <div >
+        
+          <div  style="float: left; margin-right: 8px; margin-bottom: 8px;">
+               
+                <img alt=Terraform style="float: left;" src=https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&amp;logo=terraform&amp;logoColor=white />
+               
+                
+          </div>
+          
+        
+          <div  style="float: left; margin-right: 8px; margin-bottom: 8px;">
+            
+                <img alt=Helm style="float: left;" src=https://img.shields.io/badge/helm-%230e1689.svg?style=for-the-badge&amp;logo=helm&amp;logoColor=white />
+              
+                
+          </div>
+          
+        
+          <div  style="float: left; margin-right: 8px; margin-bottom: 8px;">
+              
+                <img alt=Github Workflow style="float: left;" src=https://img.shields.io/badge/github%20workflow-%232671E5.svg?style=for-the-badge&amp;logo=githubactions&amp;logoColor=white />
+               
+                
+          </div>
+          
+        
+      </div>
+    </section>
+    <br/>
+    <br/>
+    <div>  </div>
+    <hr>
+    <br/>
+    
+    <section class="timeline">
+      <div class="title-wrapper">
+        <div class="icon-box">
+          <ion-icon name="code-slash-outline"></ion-icon>
+        </div>
+        <h3 class="h3">
+          Clouds
+        </h3>
+      </div>
+
+      <div >
+        
+          <div  style="float: left; margin-right: 8px; margin-bottom: 8px;">
+               
+                <img alt=Azure Cloud Service style="float: left;" src=https://img.shields.io/badge/azure%20cloud-%230072C6.svg?style=for-the-badge&amp;logo=microsoftazure&amp;logoColor=white />
+               
+                
+          </div>
+          
+        
+          <div  style="float: left; margin-right: 8px; margin-bottom: 8px;">
+                
+                <img alt=Azure Kubernetes Service style="float: left;" src=https://img.shields.io/badge/azure%20kubernetes-%230072C6.svg?style=for-the-badge&amp;logo=microsoftazure&amp;logoColor=white />
+               
+                
+          </div>
+          
+        
+          <div  style="float: left; margin-right: 8px; margin-bottom: 8px;">
+                
+                <img alt=Azure Cloud Storage style="float: left;" src=https://img.shields.io/badge/azure%20storage-%230072C6.svg?style=for-the-badge&amp;logo=microsoftazure&amp;logoColor=white />
+          
+                
+          </div>
+          
+        
+          <div  style="float: left; margin-right: 8px; margin-bottom: 8px;">
+            
+                <img alt=Azure Container Registry style="float: left;" src=https://img.shields.io/badge/azure%20container%20registry-%230072C6.svg?style=for-the-badge&amp;logo=microsoftazure&amp;logoColor=white />
+                
+          </div>
+          
+        
+      </div>
+    </section>
+    <br/>
+    <br/>
+    <div>  </div>
+    <hr>
+    <br/>
+-->
+    
+</article>
+      
+      <!--
+        - #EDUCATION
+      -->
+      <article class="education" data-page="education">
+
+    <header>
+        <h2 class="h2 article-title">Education</h2>
+    </header>
+
+    <section class="timeline">
+      <ol class="timeline-list">
+
+        
+          <li class="timeline-item">
+            <div class="education-header">
+              <h4 class="h4 timeline-item-title">Bangladesh University of Engineering and Technology</h4>
+              <span>Fev 2020 - Present</span>
+            </div>
+            <div class="education-header">
+              <h5 class="h5 timeline-item-subtitle">B.Sc. in Computer Science and Engineering</h5>
+              <span>CGPA: 3.53/4.00</span>
+            </div>
+          
+            
+              <div class="multicol-list">
+                <div class="blog-text" >Notable Courses</div>
+                <ul>
+                    <li><p class="timeline-text">CSE 101 - Structured Programming Language</p></li>
+
+                    <li><p class="timeline-text">CSE 107 - Object Oriented Programming</p></li>
+
+                    <li><p class="timeline-text">CSE 203 & 207 - Data Structure and Algorithms</p></li>
+
+                  
+                    <li><p class="timeline-text">CSE 305 - Computer Architecture</p></li>
+                  
+                    <li><p class="timeline-text">CSE 307 - Software Engineering</p></li>
+                  
+                    <li><p class="timeline-text">CSE 309 - Compiler Design</p></li>
+                  
+                    <li><p class="timeline-text">CSE 313 - Operating Systems</p></li>
+                  
+                    <li><p class="timeline-text">CSE 317 - Artificial Intelligence</p></li>
+                  
+                    <li><p class="timeline-text">CSE 321 - Computer Networks</p></li>
+                  
+                    <li><p class="timeline-text">CSE 405 - Computer Security</p></li>
+                  
+                    <li><p class="timeline-text">CSE 409 - Computer Graphics</p></li>
+                  
+                    <li><p class="timeline-text">CSE 463 - Introduction to Bioinformatics</p></li>
+                  
+                    <li><p class="timeline-text">CSE 471 - Machine Learning</p></li>
+                  
+                    <li><p class="timeline-text">MATH 245 - Statistics and Probability</p></li>
+                  
+                    <li><p class="timeline-text">MATH 247 - Linear Algebra</p></li>
+                  
+                </ul>
+              </div>
+            
+          </li>
+        
+          <li class="timeline-item">
+            <div class="education-header">
+              <h4 class="h4 timeline-item-title">Notre Dame College, Dhaka</h4>
+              <span>2019</span>
+            </div>
+            <div class="education-header">
+              <h5 class="h5 timeline-item-subtitle">Higher Secondary Certificate (HSC)</h5>
+              <span>GPA: 5.00/5.00</span>
+            </div>
+            <p class="timeline-text">
+              Received board scholarship.
+            </p>
+            
+          </li>
+        
+          <li class="timeline-item">
+            <div class="education-header">
+              <h4 class="h4 timeline-item-title">Khagrachari Cantonment Public School &amp; College, Khagrachari</h4>
+              <span>2017</span>
+            </div>
+            <div class="education-header">
+              <h5 class="h5 timeline-item-subtitle">Secondary School Certificate (SSC)</h5>
+              <span>GPA: 5.00/5.00</span>
+            </div>
+            <p class="timeline-text">
+              Received board scholarship.
+            </p>
+            
+          </li>
+        
+       
+      </ol>
+
+    </section>
+  </article>
+
+      <!--
+        - #ACHIEVEMENTS
+      -->
+      <article class="achievements" data-page="achievements">
+
+    <header>
+      <h2 class="h2 article-title">Achievements</h2>
+    </header>
+
+    
+        <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="trophy-outline"></ion-icon>
+              </div>
+              <h3 class="h3">Deep Learning Competitions</h3>
+            </div>
+            <ol class="timeline-list">
+                
+                    <li class="timeline-item">
+                        <div class="education-header">
+                            <h4 class="h4 timeline-item-title">SUST DL Enigma</h4>
+                            <span>Sylhet, Bangladesh</span>
+                        </div>
+                        <div class="education-header">
+                            <span>Champion</span>
+                            <span>Feb 2024</span>
+                        </div>
+                        <p class="timeline-text">
+                          Our team QWERTY became champion in this road object detection competition. Images of roads across 9 districts are given as a dataset. Our
+                          task was to build a robust model to accurately detect various vehicles and people on the
+                          road. We achieved mAP score of .66
+                        </p>
+                    </li>
+                
+            </ol>
+        </section>
+    
+        <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="trophy-outline"></ion-icon>
+              </div>
+              <h3 class="h3">Game JAM</h3>
+            </div>
+            <ol class="timeline-list">
+                
+                    <li class="timeline-item">
+                        <div class="education-header">
+                            <h4 class="h4 timeline-item-title">BUET CSE FEST Game Jam 2023</h4>
+                            <span>Dhaka, Bangladesh</span>
+                        </div>
+                        <div class="education-header">
+                            <span>Ranked 5th</span>
+                            <span>July 2023</span>
+                        </div>
+                        <p class="timeline-text">
+                            
+                        </p>
+                    </li>
+                
+                    <li class="timeline-item">
+                        <div class="education-header">
+                            <h4 class="h4 timeline-item-title">IUT National ICT Fest GameJam 2024</h4>
+                            <span>Dhaka, Bangladesh</span>
+                        </div>
+                        <div class="education-header">
+                            <span>Finalist</span>
+                            <span>April 2024</span>
+                        </div>
+                        <p class="timeline-text">
+                            
+                        </p>
+                    </li>
+          
+                
+            </ol>
+        </section>
+    
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="trophy-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Capture The Flag</h3>
+          </div>
+          <ol class="timeline-list">
+              
+                  <li class="timeline-item">
+                      <div class="education-header">
+                          <h4 class="h4 timeline-item-title">Inter University CTF, BUET CSE FEST 2023</h4>
+                          <span>Dhaka, Bangladesh</span>
+                      </div>
+                      <div class="education-header">
+                          <span> Ranked 11th among 30 onsite teams  </span>
+                          <span>July 2023</span>
+                      </div>
+                      <p class="timeline-text">
+                          Got selected for the final onsite round by raking in top 30 among 153 teams in preliminary round.
+                      </p>
+                  </li>
+  
+          </ol>
+      </section>
+  
+
+   
+    
+</article>
+
+      <!--
+        - #EXPERIENCE
+      -->
+      <article class="experience" data-page="experience">
+
+    <header>
+      <h2 class="h2 article-title">Experiences</h2>
+    </header>
+
+    
+        <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="trophy-outline"></ion-icon>
+              </div>
+              <h3 class="h3">Pridesys IT Ltd</h3>
+            </div>
+            <!-- <p class="timeline-text">
+                
+            </p> -->
+            <ol class="timeline-list">
+                
+                <p class="timeline-text">  </p> <br/>
+                
+                
+                    <li class="timeline-item">
+                        <div class="education-header">
+                            <h3 class="h3 timeline-item-title">Software Engineer II</h3>
+                            <span>June 2024 - Present</span>
+                        </div>
+                        <div class="education-header">
+                            <span>Dhaka, Bangladesh</span>
+                            <!-- <span>June 2024 - Present</span> -->
+                        </div>
+                        <br>
+                        <p class="timeline-text">
+                            
+                        </p>
+
+                        
+                            <br/>
+                            <!-- <p class="timeline-text">Some of my Notable works are:</p> -->
+                            <div style="margin-left: 15px;"></div>
+                            <ul>
+                              
+                                <li class="circle"><p class="timeline-text-bulletpoint">Redesigned application from a monolithic to microservices architecture, using Kafka to decouple services, which improved system reliability, and fault isolation, facilitated independent service scaling, and decreased deployment times.</p></li>
+                              
+                                <li class="circle"><p class="timeline-text-bulletpoint">Incorporated CI/CD with github workflows, accelerating integration and deployment across multiple microservices and reducing development time by 20%</p></li>
+                              
+                                <li class="circle"><p class="timeline-text-bulletpoint">Used Helm for k8s package management, Hashicorp’s Vault for secret management inside K8s, Terraform and Ansible for infrastructure provision and management</p></li>
+                              
+                            </ul>
+                          
+                        
+
+                    </li>
+                
+                    <li class="timeline-item">
+                        <div class="education-header">
+                            <h3 class="h3 timeline-item-title">Junior Software Engineer</h3>
+                            <span>Oct 2023 - May 2024</span>
+                        </div>
+                        <div class="education-header">
+                            <span>Dhaka, Bangladesh</span>
+                            <!-- <span>Oct 2023 - May 2024</span> -->
+                        </div>
+                        <br>
+                        <p class="timeline-text">
+                            
+                        </p>
+
+                        
+                            <br/>
+                            <!-- <p class="timeline-text">Some of my Notable works are:</p> -->
+                            <div style="margin-left: 15px;"></div>
+                            <ul>
+                              
+                                <li class="circle"><p class="timeline-text-bulletpoint">Shifted the backend architecture from deprecated Oracle Forms to Spring Boot 3 resulting in better performance, and security, with support for modern RESTful APIs and a reduction in maintenance costs.</p></li>
+                              
+                                <li class="circle"><p class="timeline-text-bulletpoint">Shifted the database from Oracle to PostgreSQL which reduced the overall cost by 70%</p></li>
+                              
+                                <li class="circle"><p class="timeline-text-bulletpoint">Successfully deployed the backend and database of the cloud ERP on ACS (Azure Cloud Service) using AKS (Azure Kubernetes Service), ACR (Azure Container Registry), Cloud storage and NGINX which in turn increased reliability and availability by 20% and reduced infrastructure cost by appx 30%</p></li>
+                              
+                            </ul>
+                          
+                        
+
+                    </li>
+                
+            </ol>
+        </section>
+        <hr>
+        <br>
+    
+        <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="trophy-outline"></ion-icon>
+              </div>
+              <h3 class="h3">ICT Cell, BUET</h3>
+            </div>
+            <!-- <p class="timeline-text">
+                
+            </p> -->
+            <ol class="timeline-list">
+                
+                <p class="timeline-text">  </p> <br/>
+                
+                
+                    <li class="timeline-item">
+                        <div class="education-header">
+                            <h3 class="h3 timeline-item-title">Junior Backend Developer</h3>
+                            <span>Oct 2021 - Mar 2023</span>
+                        </div>
+                        <div class="education-header">
+                            <span>Dhaka, Bangladesh</span>
+                            <!-- <span>Oct 2021 - Mar 2023</span> -->
+                        </div>
+                        <br>
+                        <p class="timeline-text">
+                            I worked as a backend developer at ICT Cell of BUET. My primary goal was to develop a job portal for BUET aiming to eliminate manual book keeping. I was involved in designing the overall architecture and implementing system. Additionally, I contributed to the development of backend and deployment. Some of my notable works include:
+                        </p>
+
+                        
+                            <br/>
+                            <!-- <p class="timeline-text">Some of my Notable works are:</p> -->
+                            <div style="margin-left: 15px;"></div>
+                            <ul>
+                              
+                                <li class="circle"><p class="timeline-text-bulletpoint">Designed and developed the application architecture for the job portal which decreased the overall life cycle of an application from 3 months to 1 week.</p></li>
+                              
+                                <li class="circle"><p class="timeline-text-bulletpoint">Designed and developed the application scrutiny system which reduced the time to scrutinize an application from 1 month to 1 week.</p></li>
+                              
+                                <li class="circle"><p class="timeline-text-bulletpoint">The overall system improved the communication between multiple departments and reduced the time to hire a candidate by 300%.</p></li>
+                              
+                                <li class="circle"><p class="timeline-text-bulletpoint">Developed the backend for the job listing system which completely removed the necessity of manual job posting and decreasing the cost by 100%</p></li>
+                              
+                                <li class="circle"><p class="timeline-text-bulletpoint">Automated the deployment of the system using github actions which reduced the deployment time by 50%.</p></li>
+                              
+                                <li class="circle"><p class="timeline-text-bulletpoint">The system is actively being used by BUET for hiring and has facilitated more than 10,000 applicants from the start of the system.</p></li>
+                              
+                            </ul>
+                          
+                        
+
+                    </li>
+                
+            </ol>
+        </section>
+        <hr>
+        <br>
+    
+
+   
+    
+</article>
+
+      <!--
+        - #PROJECTS
+      -->
+      <article class="projects" data-page="projects">
+
+    <header>
+      <h2 class="h2 article-title">Projects</h2>
+    </header>
+
+    <section class="blog-posts">
+      <ul class="blog-posts-list">
+        
+        
+          <li class="blog-post-item">
+            <figure class="blog-banner-box">
+              <img src="./assets/images/create_conference.png" alt="Conference Management System" loading="lazy">
+            </figure>
+              <div class="blog-content">
+                <div class="blog-header">
+                  <h3 class="h3 blog-item-title">Conference Management System</h3>
+                  <div class="project-linkes">
+                    <a href="https://github.com/Avi-Dewan/Conference-Management-System" target="_blank" rel="noopener noreferrer">
+                      <ion-icon name="logo-github"></ion-icon>
+                    </a>
+                    
+                  </div>
+                </div>
+                <div class="">
+                  🏷️
+                    
+                      <code class="tags">Svelte js</code>
+                      <code class="tags">Express js</code>
+                      <code class="tags">PostgreSQL</code>
+                  
+                    <span class="dot"></span>
+                     <!-- <br/> -->
+                     
+                  <time class="blog-text" datetime="2024">2024</time>
+                </div>
+                 <hr/> 
+
+                <p class="blog-text">
+                  Designed and implemented a web app that provides an easy interface to streamline the organization and management of academic conferences. The platform allows administrators, researchers, and reviewers to collaborate efficiently in a single, integrated environment.They create conferences; submit papers, posters; assign reviewers; give reviews and manage all these effectively.
+                </p>
+              </div>
+          </li>
+        
+          <li class="blog-post-item">
+            <figure class="blog-banner-box">
+              <img src="./assets/images/playware.png" alt="Playware" loading="lazy">
+            </figure>
+              <div class="blog-content">
+                <div class="blog-header">
+                  <h3 class="h3 blog-item-title">Playware</h3>
+                  <div class="project-linkes">
+                    <a href="https://github.com/Avi-Dewan/Playware" target="_blank" rel="noopener noreferrer">
+                      <ion-icon name="logo-github"></ion-icon>
+                    </a>
+                    
+                  </div>
+                </div>
+                <div class="">
+                  🏷️
+                    
+                      <code class="tags">Express js</code>
+                      
+                    
+                      <code class="tags">React</code>
+                      
+                    
+                      <code class="tags">PostgreSQL</code>
+                      
+                    
+                  
+                    <span class="dot"></span>
+                     <!-- <br/> -->
+                     
+                  <time class="blog-text" datetime="2022">2022</time>
+                </div>
+                 <hr/> 
+
+                <p class="blog-text">
+                  A comprehensive game store platform for releasing, purchasing, installing, subscribing, reviewing, and rating games, developed as a project for the Database Sessional in Level 1 Term 2.
+                </p>
+              </div>
+          </li>
+        
+          <li class="blog-post-item">
+            <figure class="blog-banner-box">
+              <img src="./assets/images/Football_club_manager.png" alt="Football Club Player Management System" loading="lazy">
+            </figure>
+              <div class="blog-content">
+                <div class="blog-header">
+                  <h3 class="h3 blog-item-title">Football Club Player Management System</h3>
+                  <div class="project-linkes">
+                    <a href="https://github.com/Avi-Dewan/Football-Manager---2021" target="_blank" rel="noopener noreferrer">
+                      <ion-icon name="logo-github"></ion-icon>
+                    </a>
+
+                    <a href="https://www.youtube.com/watch?v=RuEa_5_9uq4" target="_blank" rel="noopener noreferrer">
+                      <ion-icon name="logo-youtube"></ion-icon>
+                    </a>
+                    
+                  </div>
+                </div>
+                <div class="">
+                  🏷️
+                    
+                      <code class="tags">Java</code>
+                      
+                    
+                      <code class="tags">JavaFX</code>
+                      
+                    
+                      <code class="tags">Networking</code>
+                      
+                    
+                  
+                    <span class="dot"></span>
+                     <!-- <br/> -->
+                     
+                  <time class="blog-text" datetime="2021">2021</time>
+                </div>
+                 <hr/> 
+
+                <p class="blog-text">
+                  A desktop app to simulate real-time player market by networking. This app can be used to buy and sell players among different clubs. The updates are shown in real-time.
+                </p>
+              </div>
+          </li>
+        
+          <li class="blog-post-item">
+            <figure class="blog-banner-box">
+              <img src="./assets/images/lost in gravity.png" alt="Lost in Gravity" loading="lazy">
+            </figure>
+              <div class="blog-content">
+                <div class="blog-header">
+                  <h3 class="h3 blog-item-title">Lost in Gravity</h3>
+                  <div class="project-linkes">
+                    <a href="https://github.com/Asib27/SaveYouFromYou" target="_blank" rel="noopener noreferrer">
+                      <ion-icon name="logo-github"></ion-icon>
+                    </a>
+                    
+                      <a href="https://www.youtube.com/watch?v=hLj8GyflLBk" target="_blank" rel="noopener noreferrer">
+                        <ion-icon name="logo-youtube"></ion-icon>
+                      </a>
+                    
+                  </div>
+                </div>
+                <div class="">
+                  🏷️
+                    
+                      <code class="tags">p5 js</code>
+                  
+                    <span class="dot"></span>
+                     <!-- <br/> -->
+                     
+                  <time class="blog-text" datetime="2023">2023</time>
+                </div>
+                 <hr/> 
+
+                <p class="blog-text">
+                  A 2D game developed for BUET CSE Fest GAMEJAM-2023. As a player, you have to take the astronaut home using the force of gravity but with a twist, you cannot touch the astronaut.
+                </p>
+              </div>
+          </li>
+        
+          <li class="blog-post-item">
+            <figure class="blog-banner-box">
+              <img src="./assets/images/Food pull.png" alt="Food Pull" loading="lazy">
+            </figure>
+              <div class="blog-content">
+                <div class="blog-header">
+                  <h3 class="h3 blog-item-title">Food Pull</h3>
+                  <div class="project-linkes">
+                    <a href="https://github.com/Avi-Dewan/foodPull" target="_blank" rel="noopener noreferrer">
+                      <ion-icon name="logo-github"></ion-icon>
+                    </a>
+                    
+                  </div>
+                </div>
+                <div class="">
+                  🏷️
+                    
+                      <code class="tags">p5 js</code>
+                      
+                    <span class="dot"></span>
+                     <!-- <br/> -->
+                     
+                  <time class="blog-text" datetime="2024">2024</time>
+                </div>
+                 <hr/> 
+
+                <p class="blog-text">
+                  Another 2D game built for IUT National ICT Fest GameJam 2024. Using gravity you have to pull foods in the basket as required in the recipe spells while not touching the basket. You also have to collect spells (fire, water ) to finish cooking as instructed in the recipe. It used the gravity and collision mechanism written in 2nd game: SaveYouFromYou 
+                </p>
+              </div>
+          </li>
+          
+          <li class="blog-post-item">
+            <figure class="blog-banner-box">
+              <img src="./assets/images/pacman.png" alt="Pacman" loading="lazy">
+            </figure>
+              <div class="blog-content">
+                <div class="blog-header">
+                  <h3 class="h3 blog-item-title">Pacman</h3>
+                  <div class="project-linkes">
+                    <a href="https://github.com/Avi-Dewan/Pacman" target="_blank" rel="noopener noreferrer">
+                      <ion-icon name="logo-github"></ion-icon>
+                    </a>
+                    
+
+                    <a href="https://www.youtube.com/watch?v=K1Sk-ufnB8k" target="_blank" rel="noopener noreferrer">
+                      <ion-icon name="logo-youtube"></ion-icon>
+                    </a>
+
+
+                  </div>
+                </div>
+                <div class="">
+                  🏷️
+                    
+                      <code class="tags">C</code>
+                      <code class="tags">Open GL</code>
+                      
+                    <span class="dot"></span>
+                     <!-- <br/> -->
+                     
+                  <time class="blog-text" datetime="2020">2020</time>
+                </div>
+                 <hr/> 
+
+                <p class="blog-text">
+                  Implemented a basic Pacman game using Igraphics (wrapper for OpenGL) without a
+game engine. Ground-up implementation of menu navigation and physics. 
+                </p>
+              </div>
+          </li>
+
+      </ul>
+
+    </section>
+
+  </article>
+
+      <!--
+        - #RESEARCH
+      -->
+      
+      <article class="research" data-page="research">
+
+    <header>
+      <h2 class="h2 article-title">Research</h2>
+    </header>
+
+    <section class="timeline">
+      <ol class="timeline-list">
+
+        
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">Hybridizing Reinforcement Learning and Metaheuristics to design
+              robust optimization framework</h4>
+            <h5 class="h5 timeline-item-subtitle-research">Undergraduate thesis work</h5>
+            
+                <h5 class="h5 timeline-item-subtitle-research"> Supervisor:
+                  Dr.
+                  Muhammad Ali Nayeem, Assistant Professor, CSE, BUET, Dhaka
+                        
+                    
+                </h5>
+            
+            
+                <h5 class="h5 timeline-item-subtitle-research">Keywords: 
+                    
+                  Neural Combinatorial Optimization
+                         , 
+                        Reinforcement Learning(RL), 
+                        Graph Neural Network (GNN)
+                        
+                    
+                </h5>
+            
+              
+            <br>
+            <p class="timeline-text-bulletpoint">
+              We aim to solve computer optimization problems such as DVRP(Dynamic Vehicle Routing Problem), TSP(Travelling Salesman Problem) using deep reinforcement learning and different meta-heuristic techniques such as ant colony, evolutionary algorithm etc. We leverage GNN to get graph embedding from the problem instance. Using that embedding we generate heuristic which is then used in the solution.
+            </p>
+          </li>
+        
+
+      </ol>
+
+      <br/>
+
+      <ol class="timeline-list">
+
+        
+        <li class="timeline-item">
+          <h4 class="h4 timeline-item-title">Novel Class Discovery </h4>
+          <h5 class="h5 timeline-item-subtitle-research">Remote Part Time Research Assistant</h5>
+          
+              <h5 class="h5 timeline-item-subtitle-research">Supervisor: 
+                Dr. Avijoy Chakma, Assistant Professor, CS, Bowie State University, Maryland, USA
+              </h5>
+          
+          
+              <h5 class="h5 timeline-item-subtitle-research">Keywords: 
+                  Computer Vision, Novel Class, Clustering, Open-world learning
+              </h5>
+          
+            
+          <br>
+          <p class="timeline-text-bulletpoint">
+            We aim to discover new semantic classes in an unlabelled datset by leveraging the knowledge acquired from another labeled data set where it is assumed that the classes in the labeled and unlabeled set are disjoint. To this end, we use various self-supervised learning(SSL) techniques to learn a better representaton of the samples then apply various clustering algorithm.
+          </p>
+        </li>
+      
+
+      </ol>
+
+    </section>
+  </article>
+      
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Finance</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+     
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
