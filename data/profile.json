@@ -1,0 +1,29 @@
+{
+  "name": "Avi Dewan",
+  "title": "Software Engineer, Therap BD Ltd",
+  "avatar": "./assets/images/me/me7.jpg",
+  "socialLinks": [
+    {
+      "url": "https://www.linkedin.com/in/avi-dewan/",
+      "icon": "logo-linkedin"
+    },
+    {
+      "url": "https://github.com/Avi-Dewan",
+      "icon": "logo-github"
+    }
+  ],
+  "contacts": [
+    {
+      "icon": "mail-outline",
+      "title": "Email",
+      "value": "avidewan07@gmail.com",
+      "link": "mailto:avidewan07@gmail.com"
+    },
+    {
+      "icon": "location-outline",
+      "title": "Location",
+      "value": "Dhaka, Bangladesh",
+      "isAddress": true
+    }
+  ]
+}

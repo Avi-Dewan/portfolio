@@ -1,0 +1,47 @@
+{
+  "companies": [
+    {
+      "name": "Therap BD Ltd",
+      "icon": "trophy-outline",
+      "roles": [
+        {
+          "title": "Software Engineer",
+          "period": "April 2026 - Present",
+          "location": "Dhaka, Bangladesh",
+          "bullets": [
+            "Built end-to-end automation tests for the authentication service using Playwright, leveraging AI tooling (Gemini CLI) for rapid test generation",
+            "Dockerized two production services across all environments (development, staging, production), standardizing deployments and eliminating environment-specific issues"
+          ]
+        },
+        {
+          "title": "Associate Software Engineer",
+          "period": "April 2025 - March 2026",
+          "location": "Dhaka, Bangladesh",
+          "bullets": [
+            "Completed training on Java, Spring MVC, Spring Boot, clean architecture, and software engineering best practices",
+            "Built a full-stack learning platform as the capstone training project with a team of 5 in 2 months — integrated Kafka for messaging, Hazelcast for caching, NGINX as a reverse proxy, a file server, and two Spring Boot backends (Learners and Teachers); presented to leadership",
+            "Extracted a tightly coupled shared library from the monolith into an independent authentication microservice, enabling fully isolated builds and deployments",
+            "Resolved cross-service bugs across multiple servers, using AI-assisted tooling for accelerated debugging and code analysis"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Montola School",
+      "icon": "trophy-outline",
+      "roles": [
+        {
+          "title": "Full-Stack Developer",
+          "period": "Nov 2025 - Present",
+          "location": "Dhaka, Bangladesh",
+          "bullets": [
+            "Single-handedly architected and developed a school management platform using Spring Boot, PostgreSQL (Neon DB), and Next.js with Tailwind CSS",
+            "Built an administrative dashboard for teachers to manage students, attendance, and academic records, along with a student portal for accessing grades and resources",
+            "Deployed the frontend on Vercel and the backend as a Dockerized service on Render, with CI/CD for seamless releases",
+            "Shipped 2 releases; currently finalizing bug fixes ahead of public launch"
+          ]
+        }
+      ]
+    }
+  ]
+}

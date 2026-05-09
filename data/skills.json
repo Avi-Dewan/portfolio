@@ -1,0 +1,62 @@
+{
+  "categories": [
+    {
+      "title": "Languages",
+      "badges": [
+        { "alt": "Java",       "src": "https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white" },
+        { "alt": "Javascript", "src": "https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" },
+        { "alt": "Python",     "src": "https://img.shields.io/badge/python-%233776AB.svg?style=for-the-badge&logo=python&logoColor=white" },
+        { "alt": "C",          "src": "https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white" },
+        { "alt": "C++",        "src": "https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=cplusplus&logoColor=white" },
+        { "alt": "Bash",       "src": "https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white" }
+      ]
+    },
+    {
+      "title": "Backend",
+      "badges": [
+        { "alt": "Spring Boot", "src": "https://img.shields.io/badge/Spring_Boot-%236DB33F.svg?style=for-the-badge&logo=springboot&logoColor=white" },
+        { "alt": "Spring MVC",  "src": "https://img.shields.io/badge/Spring_MVC-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white" },
+        { "alt": "NodeJS",      "src": "https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" },
+        { "alt": "ExpressJS",   "src": "https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=white" },
+        { "alt": "Next.js",     "src": "https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white" }
+      ]
+    },
+    {
+      "title": "Frontend",
+      "badges": [
+        { "alt": "React",        "src": "https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" },
+        { "alt": "Svelte",       "src": "https://img.shields.io/badge/svelte-%23FF3E00.svg?style=for-the-badge&logo=svelte&logoColor=white" },
+        { "alt": "Next.js",      "src": "https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white" },
+        { "alt": "Bootstrap",    "src": "https://img.shields.io/badge/Bootstrap-%237952B3.svg?style=for-the-badge&logo=bootstrap&logoColor=white" },
+        { "alt": "Tailwind CSS", "src": "https://img.shields.io/badge/Tailwind_CSS-%2306B6D4.svg?style=for-the-badge&logo=tailwindcss&logoColor=white" },
+        { "alt": "p5.js",        "src": "https://img.shields.io/badge/p5.js-%23ED225D.svg?style=for-the-badge&logo=p5.js&logoColor=white" }
+      ]
+    },
+    {
+      "title": "Database & Caching",
+      "badges": [
+        { "alt": "PostgreSQL", "src": "https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" },
+        { "alt": "Oracle",     "src": "https://img.shields.io/badge/Oracle-%23F80000.svg?style=for-the-badge&logo=oracle&logoColor=white" },
+        { "alt": "MySQL",      "src": "https://img.shields.io/badge/mysql-%234479A1.svg?style=for-the-badge&logo=mysql&logoColor=white" },
+        { "alt": "Redis",      "src": "https://img.shields.io/badge/redis-%23DC382D.svg?style=for-the-badge&logo=redis&logoColor=white" },
+        { "alt": "Hazelcast",  "src": "https://img.shields.io/badge/Hazelcast-%23023B65.svg?style=for-the-badge&logoColor=white" }
+      ]
+    },
+    {
+      "title": "DevOps & Tools",
+      "badges": [
+        { "alt": "Docker",       "src": "https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white" },
+        { "alt": "Zot Registry", "src": "https://img.shields.io/badge/Zot_Registry-%23000000.svg?style=for-the-badge&logoColor=white" },
+        { "alt": "Git",          "src": "https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" },
+        { "alt": "NGINX",        "src": "https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white" }
+      ]
+    },
+    {
+      "title": "AI Tools",
+      "badges": [
+        { "alt": "Gemini CLI",  "src": "https://img.shields.io/badge/Gemini_CLI-%234285F4.svg?style=for-the-badge&logo=google&logoColor=white" },
+        { "alt": "Antigravity", "src": "https://img.shields.io/badge/Antigravity-%23000000.svg?style=for-the-badge&logo=google&logoColor=white" }
+      ]
+    }
+  ]
+}

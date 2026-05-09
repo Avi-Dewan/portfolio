@@ -1,0 +1,44 @@
+{
+  "schools": [
+    {
+      "name": "Bangladesh University of Engineering and Technology",
+      "period": "Fev 2020 - March 2025",
+      "degree": "B.Sc. in Computer Science and Engineering",
+      "grade": "CGPA: 3.57/4.00",
+      "description": "",
+      "courses": [
+        "CSE 101 - Structured Programming Language",
+        "CSE 107 - Object Oriented Programming",
+        "CSE 203 & 207 - Data Structure and Algorithms",
+        "CSE 305 - Computer Architecture",
+        "CSE 307 - Software Engineering",
+        "CSE 309 - Compiler Design",
+        "CSE 313 - Operating Systems",
+        "CSE 317 - Artificial Intelligence",
+        "CSE 321 - Computer Networks",
+        "CSE 405 - Computer Security",
+        "CSE 409 - Computer Graphics",
+        "CSE 463 - Introduction to Bioinformatics",
+        "CSE 471 - Machine Learning",
+        "MATH 245 - Statistics and Probability",
+        "MATH 247 - Linear Algebra"
+      ]
+    },
+    {
+      "name": "Notre Dame College, Dhaka",
+      "period": "2019",
+      "degree": "Higher Secondary Certificate (HSC)",
+      "grade": "GPA: 5.00/5.00",
+      "description": "Received board scholarship.",
+      "courses": []
+    },
+    {
+      "name": "Khagrachari Cantonment Public School & College, Khagrachari",
+      "period": "2017",
+      "degree": "Secondary School Certificate (SSC)",
+      "grade": "GPA: 5.00/5.00",
+      "description": "Received board scholarship.",
+      "courses": []
+    }
+  ]
+}

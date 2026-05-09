@@ -1,0 +1,50 @@
+{
+  "sections": [
+    {
+      "category": "Deep Learning Competitions",
+      "icon": "trophy-outline",
+      "entries": [
+        {
+          "title": "SUST DL Enigma",
+          "location": "Sylhet, Bangladesh",
+          "rank": "Champion",
+          "date": "Feb 2024",
+          "description": "Our team QWERTY became champion in this road object detection competition. Images of roads across 9 districts are given as a dataset. Our task was to build a robust model to accurately detect various vehicles and people on the road. We achieved mAP score of .66"
+        }
+      ]
+    },
+    {
+      "category": "Game JAM",
+      "icon": "trophy-outline",
+      "entries": [
+        {
+          "title": "BUET CSE FEST Game Jam 2023",
+          "location": "Dhaka, Bangladesh",
+          "rank": "Ranked 5th",
+          "date": "July 2023",
+          "description": ""
+        },
+        {
+          "title": "IUT National ICT Fest GameJam 2024",
+          "location": "Dhaka, Bangladesh",
+          "rank": "Finalist",
+          "date": "April 2024",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "category": "Capture The Flag",
+      "icon": "trophy-outline",
+      "entries": [
+        {
+          "title": "Inter University CTF, BUET CSE FEST 2023",
+          "location": "Dhaka, Bangladesh",
+          "rank": "Ranked 11th among 30 onsite teams",
+          "date": "July 2023",
+          "description": "Got selected for the final onsite round by raking in top 30 among 153 teams in preliminary round."
+        }
+      ]
+    }
+  ]
+}

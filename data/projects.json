@@ -1,0 +1,58 @@
+{
+  "items": [
+    {
+      "title": "Conference Management System",
+      "image": "./assets/images/conference.png",
+      "github": "https://github.com/Avi-Dewan/Conference-Management-System",
+      "youtube": "",
+      "tags": ["Svelte js", "Express js", "PostgreSQL"],
+      "year": "2024",
+      "description": "Designed and implemented a web app that provides an easy interface to streamline the organization and management of academic conferences. The platform allows administrators, researchers, and reviewers to collaborate efficiently in a single, integrated environment.They create conferences; submit papers, posters; assign reviewers; give reviews and manage all these effectively."
+    },
+    {
+      "title": "Playware",
+      "image": "./assets/images/playware.png",
+      "github": "https://github.com/Avi-Dewan/Playware",
+      "youtube": "",
+      "tags": ["Express js", "React", "PostgreSQL"],
+      "year": "2022",
+      "description": "A comprehensive game store platform for releasing, purchasing, installing, subscribing, reviewing, and rating games, developed as a project for the Database Sessional in Level 1 Term 2."
+    },
+    {
+      "title": "Football Club Player Management System",
+      "image": "./assets/images/Football_club_manager.png",
+      "github": "https://github.com/Avi-Dewan/Football-Manager---2021",
+      "youtube": "https://www.youtube.com/watch?v=RuEa_5_9uq4",
+      "tags": ["Java", "JavaFX", "Networking"],
+      "year": "2021",
+      "description": "A desktop app to simulate real-time player market by networking. This app can be used to buy and sell players among different clubs. The updates are shown in real-time."
+    },
+    {
+      "title": "Lost in Gravity",
+      "image": "./assets/images/lost in gravity.png",
+      "github": "https://github.com/Asib27/SaveYouFromYou",
+      "youtube": "https://www.youtube.com/watch?v=hLj8GyflLBk",
+      "tags": ["p5 js"],
+      "year": "2023",
+      "description": "A 2D game developed for BUET CSE Fest GAMEJAM-2023. As a player, you have to take the astronaut home using the force of gravity but with a twist, you cannot touch the astronaut."
+    },
+    {
+      "title": "Food Pull",
+      "image": "./assets/images/Food pull.png",
+      "github": "https://github.com/Avi-Dewan/foodPull",
+      "youtube": "",
+      "tags": ["p5 js"],
+      "year": "2024",
+      "description": "Another 2D game built for IUT National ICT Fest GameJam 2024. Using gravity you have to pull foods in the basket as required in the recipe spells while not touching the basket. You also have to collect spells (fire, water ) to finish cooking as instructed in the recipe. It used the gravity and collision mechanism written in 2nd game: SaveYouFromYou"
+    },
+    {
+      "title": "Pacman",
+      "image": "./assets/images/pacman.jpeg",
+      "github": "https://github.com/Avi-Dewan/Pacman",
+      "youtube": "https://www.youtube.com/watch?v=K1Sk-ufnB8k",
+      "tags": ["C", "Open GL"],
+      "year": "2020",
+      "description": "Implemented a basic Pacman game using Igraphics (wrapper for OpenGL) without a game engine. Ground-up implementation of menu navigation and physics."
+    }
+  ]
+}
